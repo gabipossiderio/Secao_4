@@ -1,0 +1,5 @@
+print("FOLHA DE PAGAMENTO")
+print("Funcionário: José da Silva")
+num = float(input("Informe a quantidade de dias trabalhados:"))
+s = (num * 30)
+print(f"Você receberá a quantia de R$ {s - (s * 0.08)} considerando o desconto de 8% do IR.")
